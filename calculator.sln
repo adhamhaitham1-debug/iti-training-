@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "calculator", "calculator\calculator.vcxproj", "{7B189EF2-B6FE-42F7-8FD4-24025D0D09E2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "atm simulation", "atm simulation\atm simulation.vcxproj", "{89717B16-DDDA-45DD-A64F-C4FA0E8F514B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,14 @@ Global
 		{7B189EF2-B6FE-42F7-8FD4-24025D0D09E2}.Release|x64.Build.0 = Release|x64
 		{7B189EF2-B6FE-42F7-8FD4-24025D0D09E2}.Release|x86.ActiveCfg = Release|Win32
 		{7B189EF2-B6FE-42F7-8FD4-24025D0D09E2}.Release|x86.Build.0 = Release|Win32
+		{89717B16-DDDA-45DD-A64F-C4FA0E8F514B}.Debug|x64.ActiveCfg = Debug|x64
+		{89717B16-DDDA-45DD-A64F-C4FA0E8F514B}.Debug|x64.Build.0 = Debug|x64
+		{89717B16-DDDA-45DD-A64F-C4FA0E8F514B}.Debug|x86.ActiveCfg = Debug|Win32
+		{89717B16-DDDA-45DD-A64F-C4FA0E8F514B}.Debug|x86.Build.0 = Debug|Win32
+		{89717B16-DDDA-45DD-A64F-C4FA0E8F514B}.Release|x64.ActiveCfg = Release|x64
+		{89717B16-DDDA-45DD-A64F-C4FA0E8F514B}.Release|x64.Build.0 = Release|x64
+		{89717B16-DDDA-45DD-A64F-C4FA0E8F514B}.Release|x86.ActiveCfg = Release|Win32
+		{89717B16-DDDA-45DD-A64F-C4FA0E8F514B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
