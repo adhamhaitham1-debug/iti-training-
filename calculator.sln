@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Salary management system", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "quiz(1)", "quiz(1)\quiz(1).vcxproj", "{BC8A18FA-0258-4FE6-AF1D-59A9B8062E02}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pointers to modify variables through functions", "pointers to modify variables through functions\pointers to modify variables through functions.vcxproj", "{8DBC9FB1-D4AB-418D-8750-FDBD2E565CB4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{BC8A18FA-0258-4FE6-AF1D-59A9B8062E02}.Release|x64.Build.0 = Release|x64
 		{BC8A18FA-0258-4FE6-AF1D-59A9B8062E02}.Release|x86.ActiveCfg = Release|Win32
 		{BC8A18FA-0258-4FE6-AF1D-59A9B8062E02}.Release|x86.Build.0 = Release|Win32
+		{8DBC9FB1-D4AB-418D-8750-FDBD2E565CB4}.Debug|x64.ActiveCfg = Debug|x64
+		{8DBC9FB1-D4AB-418D-8750-FDBD2E565CB4}.Debug|x64.Build.0 = Debug|x64
+		{8DBC9FB1-D4AB-418D-8750-FDBD2E565CB4}.Debug|x86.ActiveCfg = Debug|Win32
+		{8DBC9FB1-D4AB-418D-8750-FDBD2E565CB4}.Debug|x86.Build.0 = Debug|Win32
+		{8DBC9FB1-D4AB-418D-8750-FDBD2E565CB4}.Release|x64.ActiveCfg = Release|x64
+		{8DBC9FB1-D4AB-418D-8750-FDBD2E565CB4}.Release|x64.Build.0 = Release|x64
+		{8DBC9FB1-D4AB-418D-8750-FDBD2E565CB4}.Release|x86.ActiveCfg = Release|Win32
+		{8DBC9FB1-D4AB-418D-8750-FDBD2E565CB4}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
