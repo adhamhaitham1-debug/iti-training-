@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Quiz(2)(part1)", "Quiz(2)(p
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "quiz(2)(part2)", "quiz(2)(part2)\quiz(2)(part2).vcxproj", "{BABA43B5-2DD6-4C59-9C5B-09C7AC8BA1CF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Student management system using OOP", "Student management system using OOP\Student management system using OOP.vcxproj", "{4073DBFD-3516-4785-BC68-10BD4CB781BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -101,6 +103,14 @@ Global
 		{BABA43B5-2DD6-4C59-9C5B-09C7AC8BA1CF}.Release|x64.Build.0 = Release|x64
 		{BABA43B5-2DD6-4C59-9C5B-09C7AC8BA1CF}.Release|x86.ActiveCfg = Release|Win32
 		{BABA43B5-2DD6-4C59-9C5B-09C7AC8BA1CF}.Release|x86.Build.0 = Release|Win32
+		{4073DBFD-3516-4785-BC68-10BD4CB781BE}.Debug|x64.ActiveCfg = Debug|x64
+		{4073DBFD-3516-4785-BC68-10BD4CB781BE}.Debug|x64.Build.0 = Debug|x64
+		{4073DBFD-3516-4785-BC68-10BD4CB781BE}.Debug|x86.ActiveCfg = Debug|Win32
+		{4073DBFD-3516-4785-BC68-10BD4CB781BE}.Debug|x86.Build.0 = Debug|Win32
+		{4073DBFD-3516-4785-BC68-10BD4CB781BE}.Release|x64.ActiveCfg = Release|x64
+		{4073DBFD-3516-4785-BC68-10BD4CB781BE}.Release|x64.Build.0 = Release|x64
+		{4073DBFD-3516-4785-BC68-10BD4CB781BE}.Release|x86.ActiveCfg = Release|Win32
+		{4073DBFD-3516-4785-BC68-10BD4CB781BE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
