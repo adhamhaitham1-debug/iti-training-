@@ -25,6 +25,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Student management system u
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "quiz(3)", "quiz(3)\quiz(3).vcxproj", "{F253C523-7A27-429E-A073-36B0B7757E84}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "library managment system", "library managment system\library managment system.vcxproj", "{DBBDD54B-340B-4C85-8E1B-0F9ADBFF614B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -121,6 +123,14 @@ Global
 		{F253C523-7A27-429E-A073-36B0B7757E84}.Release|x64.Build.0 = Release|x64
 		{F253C523-7A27-429E-A073-36B0B7757E84}.Release|x86.ActiveCfg = Release|Win32
 		{F253C523-7A27-429E-A073-36B0B7757E84}.Release|x86.Build.0 = Release|Win32
+		{DBBDD54B-340B-4C85-8E1B-0F9ADBFF614B}.Debug|x64.ActiveCfg = Debug|x64
+		{DBBDD54B-340B-4C85-8E1B-0F9ADBFF614B}.Debug|x64.Build.0 = Debug|x64
+		{DBBDD54B-340B-4C85-8E1B-0F9ADBFF614B}.Debug|x86.ActiveCfg = Debug|Win32
+		{DBBDD54B-340B-4C85-8E1B-0F9ADBFF614B}.Debug|x86.Build.0 = Debug|Win32
+		{DBBDD54B-340B-4C85-8E1B-0F9ADBFF614B}.Release|x64.ActiveCfg = Release|x64
+		{DBBDD54B-340B-4C85-8E1B-0F9ADBFF614B}.Release|x64.Build.0 = Release|x64
+		{DBBDD54B-340B-4C85-8E1B-0F9ADBFF614B}.Release|x86.ActiveCfg = Release|Win32
+		{DBBDD54B-340B-4C85-8E1B-0F9ADBFF614B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
