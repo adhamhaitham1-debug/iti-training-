@@ -29,6 +29,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "library managment system", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "quiz(4)", "quiz(4)\quiz(4).vcxproj", "{380DE251-FC6A-426F-BB2D-7B09B5EA4145}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "quiz5", "G:\c++\quiz5\quiz5.vcxproj", "{9BE5D5E3-390F-4FCC-832B-65E75BE02DAB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -141,6 +143,14 @@ Global
 		{380DE251-FC6A-426F-BB2D-7B09B5EA4145}.Release|x64.Build.0 = Release|x64
 		{380DE251-FC6A-426F-BB2D-7B09B5EA4145}.Release|x86.ActiveCfg = Release|Win32
 		{380DE251-FC6A-426F-BB2D-7B09B5EA4145}.Release|x86.Build.0 = Release|Win32
+		{9BE5D5E3-390F-4FCC-832B-65E75BE02DAB}.Debug|x64.ActiveCfg = Debug|x64
+		{9BE5D5E3-390F-4FCC-832B-65E75BE02DAB}.Debug|x64.Build.0 = Debug|x64
+		{9BE5D5E3-390F-4FCC-832B-65E75BE02DAB}.Debug|x86.ActiveCfg = Debug|Win32
+		{9BE5D5E3-390F-4FCC-832B-65E75BE02DAB}.Debug|x86.Build.0 = Debug|Win32
+		{9BE5D5E3-390F-4FCC-832B-65E75BE02DAB}.Release|x64.ActiveCfg = Release|x64
+		{9BE5D5E3-390F-4FCC-832B-65E75BE02DAB}.Release|x64.Build.0 = Release|x64
+		{9BE5D5E3-390F-4FCC-832B-65E75BE02DAB}.Release|x86.ActiveCfg = Release|Win32
+		{9BE5D5E3-390F-4FCC-832B-65E75BE02DAB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
