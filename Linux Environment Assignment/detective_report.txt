@@ -1,0 +1,9 @@
+]633;E;echo "Shell: $SHELL";1e6ab4d1-9994-473e-8981-e3a8bf900776]633;CShell: /bin/bash
+Shell PID: 15701
+Parent PID: 14919
+User: adhamakl
+Current directory: /home/adhamakl
+Home directory: /home/adhamakl
+Hostname: adhamakl-VMware-Virtual-Platform
+PATH: /home/adhamakl/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/adhamakl/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+Number of env variables: 59
