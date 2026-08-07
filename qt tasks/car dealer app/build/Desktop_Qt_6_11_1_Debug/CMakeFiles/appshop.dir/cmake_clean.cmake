@@ -1,0 +1,42 @@
+file(REMOVE_RECURSE
+  ".qt/rcc/qrc_appshop_raw_qml_0.cpp"
+  ".qt/rcc/qrc_appshop_raw_res_0.cpp"
+  ".qt/rcc/qrc_qmake_shop.cpp"
+  ".rcc/qmlcache/appshop_Main_qml.cpp"
+  ".rcc/qmlcache/appshop_Main_qml.cpp.aotstats"
+  ".rcc/qmlcache/appshop_qmlcache_loader.cpp"
+  "CMakeFiles/appshop_autogen.dir/AutogenUsed.txt"
+  "CMakeFiles/appshop_autogen.dir/ParseCache.txt"
+  "appshop_autogen"
+  "CMakeFiles/appshop.dir/appshop_autogen/mocs_compilation.cpp.o"
+  "CMakeFiles/appshop.dir/appshop_autogen/mocs_compilation.cpp.o.d"
+  "CMakeFiles/appshop.dir/appshop_qmltyperegistrations.cpp.o"
+  "CMakeFiles/appshop.dir/appshop_qmltyperegistrations.cpp.o.d"
+  "CMakeFiles/appshop.dir/build/Desktop_Qt_6_11_1_Debug/.qt/rcc/qrc_appshop_raw_qml_0.cpp.o"
+  "CMakeFiles/appshop.dir/build/Desktop_Qt_6_11_1_Debug/.qt/rcc/qrc_appshop_raw_qml_0.cpp.o.d"
+  "CMakeFiles/appshop.dir/build/Desktop_Qt_6_11_1_Debug/.qt/rcc/qrc_appshop_raw_res_0.cpp.o"
+  "CMakeFiles/appshop.dir/build/Desktop_Qt_6_11_1_Debug/.qt/rcc/qrc_appshop_raw_res_0.cpp.o.d"
+  "CMakeFiles/appshop.dir/build/Desktop_Qt_6_11_1_Debug/.qt/rcc/qrc_qmake_shop.cpp.o"
+  "CMakeFiles/appshop.dir/build/Desktop_Qt_6_11_1_Debug/.qt/rcc/qrc_qmake_shop.cpp.o.d"
+  "CMakeFiles/appshop.dir/build/Desktop_Qt_6_11_1_Debug/.rcc/qmlcache/appshop_Main_qml.cpp.o"
+  "CMakeFiles/appshop.dir/build/Desktop_Qt_6_11_1_Debug/.rcc/qmlcache/appshop_Main_qml.cpp.o.d"
+  "CMakeFiles/appshop.dir/build/Desktop_Qt_6_11_1_Debug/.rcc/qmlcache/appshop_qmlcache_loader.cpp.o"
+  "CMakeFiles/appshop.dir/build/Desktop_Qt_6_11_1_Debug/.rcc/qmlcache/appshop_qmlcache_loader.cpp.o.d"
+  "CMakeFiles/appshop.dir/main.cpp.o"
+  "CMakeFiles/appshop.dir/main.cpp.o.d"
+  "appshop"
+  "appshop.pdb"
+  "appshop_autogen/mocs_compilation.cpp"
+  "appshop_autogen/timestamp"
+  "appshop_qmltyperegistrations.cpp"
+  "meta_types/appshop_json_file_list.txt"
+  "meta_types/appshop_json_file_list.txt.timestamp"
+  "meta_types/qt6appshop_metatypes.json"
+  "meta_types/qt6appshop_metatypes.json.gen"
+  "shop/appshop.qmltypes"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/appshop.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_appshop_FILE /home/adhamakl/shop/build/Desktop_Qt_6_11_1_Debug/appshop)
+set(__QT_DEPLOY_TARGET_appshop_TYPE EXECUTABLE)

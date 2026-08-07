@@ -1,0 +1,13 @@
+<RCC>
+  <qresource prefix="/qt/qml/shop/">
+    <file alias="images/banner.jpg">/home/adhamakl/shop/images/banner.jpg</file>
+    <file alias="images/car1.jpg">/home/adhamakl/shop/images/car1.jpg</file>
+    <file alias="images/car2.jpg">/home/adhamakl/shop/images/car2.jpg</file>
+    <file alias="images/car3.jpg">/home/adhamakl/shop/images/car3.jpg</file>
+    <file alias="images/car4.jpg">/home/adhamakl/shop/images/car4.jpg</file>
+    <file alias="images/domz_logo.png">/home/adhamakl/shop/images/domz_logo.png</file>
+    <file alias="i18n/app_ar.qm">/home/adhamakl/shop/i18n/app_ar.qm</file>
+    <file alias="i18n/app_tr.qm">/home/adhamakl/shop/i18n/app_tr.qm</file>
+  </qresource>
+</RCC>
+

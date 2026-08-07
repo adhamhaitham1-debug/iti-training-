@@ -1,0 +1,1311 @@
+{
+    "formatRevision": 1,
+    "modules": [
+        {
+            "moduleFiles": [
+                {
+                    "entries": [
+                        {
+                            "codegenResult": 2,
+                            "column": 26,
+                            "durationMicroseconds": 517,
+                            "functionName": "themes",
+                            "line": 18,
+                            "message": "Cannot generate efficient code for storing an array in a non-sequence type"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 31,
+                            "durationMicroseconds": 93,
+                            "functionName": "activeTheme",
+                            "line": 24,
+                            "message": "Cannot generate efficient code for LoadElement with non-list base type Main::themes with type QVariant (adjusted to QJSValue, stored as QJSValue)"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 12,
+                            "durationMicroseconds": 11,
+                            "functionName": "color",
+                            "line": 25,
+                            "message": "Cannot load property bg from Main::activeTheme with type QVariant."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 31,
+                            "durationMicroseconds": 570,
+                            "functionName": "allCarsData",
+                            "line": 30,
+                            "message": "Cannot generate efficient code for storing an array in a non-sequence type"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 30,
+                            "durationMicroseconds": 65,
+                            "functionName": "enabled",
+                            "line": 13,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 28,
+                            "durationMicroseconds": 166,
+                            "functionName": "onCompleted",
+                            "line": 40,
+                            "message": "Cannot load property length from Main::allCarsData with type QVariant."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 16,
+                            "durationMicroseconds": 39,
+                            "functionName": "width",
+                            "line": 48,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 16,
+                            "durationMicroseconds": 56,
+                            "functionName": "color",
+                            "line": 50,
+                            "message": "Cannot access value for name activeTheme"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 23,
+                            "durationMicroseconds": 13,
+                            "functionName": "color",
+                            "line": 51,
+                            "message": "Cannot access value for name activeTheme"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 27,
+                            "durationMicroseconds": 37,
+                            "functionName": "fill",
+                            "line": 57,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 74,
+                            "durationMicroseconds": 16,
+                            "functionName": "color",
+                            "line": 64,
+                            "message": "Cannot access value for name activeTheme"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 93,
+                            "durationMicroseconds": 35,
+                            "functionName": "fillMode",
+                            "line": 65,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 75,
+                            "durationMicroseconds": 33,
+                            "functionName": "fill",
+                            "line": 65,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 93,
+                            "durationMicroseconds": 16,
+                            "functionName": "color",
+                            "line": 67,
+                            "message": "Cannot access value for name activeTheme"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 24,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 77,
+                            "message": "Could not find property \"color\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 31,
+                            "durationMicroseconds": 0,
+                            "functionName": "onTextEdited",
+                            "line": 83,
+                            "message": "Could not find signal \"textEdited\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 28,
+                            "durationMicroseconds": 26,
+                            "functionName": "color",
+                            "line": 81,
+                            "message": "Cannot access value for name currentTheme"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 35,
+                            "durationMicroseconds": 18,
+                            "functionName": "color",
+                            "line": 80,
+                            "message": "Cannot access value for name activeTheme"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 32,
+                            "durationMicroseconds": 31,
+                            "functionName": "color",
+                            "line": 103,
+                            "message": "Cannot access value for name index"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 39,
+                            "durationMicroseconds": 27,
+                            "functionName": "color",
+                            "line": 104,
+                            "message": "Cannot access value for name currentTheme"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 39,
+                            "durationMicroseconds": 21,
+                            "functionName": "width",
+                            "line": 105,
+                            "message": "Cannot access value for name currentTheme"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 70,
+                            "durationMicroseconds": 98,
+                            "functionName": "onClicked",
+                            "line": 106,
+                            "message": "Cannot access value for name index"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 51,
+                            "durationMicroseconds": 28,
+                            "functionName": "fill",
+                            "line": 106,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 24,
+                            "durationMicroseconds": 23,
+                            "functionName": "color",
+                            "line": 116,
+                            "message": "Cannot access value for name activeTheme"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 31,
+                            "durationMicroseconds": 20,
+                            "functionName": "color",
+                            "line": 117,
+                            "message": "Cannot access value for name activeTheme"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 39,
+                            "durationMicroseconds": 24,
+                            "functionName": "centerIn",
+                            "line": 121,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 34,
+                            "durationMicroseconds": 66,
+                            "functionName": "text",
+                            "line": 123,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 64,
+                            "durationMicroseconds": 16,
+                            "functionName": "color",
+                            "line": 123,
+                            "message": "Cannot access value for name activeTheme"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 34,
+                            "durationMicroseconds": 29,
+                            "functionName": "text",
+                            "line": 124,
+                            "message": "Cannot access value for name cartTotal"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 34,
+                            "durationMicroseconds": 37,
+                            "functionName": "cursorShape",
+                            "line": 131,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 32,
+                            "durationMicroseconds": 15,
+                            "functionName": "onClicked",
+                            "line": 132,
+                            "message": "Cannot retrieve a non-object type by ID: cartPopup"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 35,
+                            "durationMicroseconds": 25,
+                            "functionName": "fill",
+                            "line": 129,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 24,
+                            "durationMicroseconds": 0,
+                            "functionName": "model",
+                            "line": 138,
+                            "message": "Could not find property \"model\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 30,
+                            "durationMicroseconds": 0,
+                            "functionName": "onActivated",
+                            "line": 146,
+                            "message": "Could not find signal \"activated\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 30,
+                            "durationMicroseconds": 0,
+                            "functionName": "onActivated",
+                            "line": 146,
+                            "message": "Could not find signal \"activated\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 40,
+                            "durationMicroseconds": 226,
+                            "functionName": "onCompleted",
+                            "line": 141,
+                            "message": "Cannot access value for name count"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 23,
+                            "durationMicroseconds": 0,
+                            "functionName": "contentWidth",
+                            "line": 160,
+                            "message": "Could not find property \"contentWidth\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 22,
+                            "durationMicroseconds": 0,
+                            "functionName": "top",
+                            "line": 155,
+                            "message": "Could not find property \"top\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 25,
+                            "durationMicroseconds": 0,
+                            "functionName": "bottom",
+                            "line": 156,
+                            "message": "Could not find property \"bottom\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 23,
+                            "durationMicroseconds": 0,
+                            "functionName": "left",
+                            "line": 157,
+                            "message": "Could not find property \"left\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 24,
+                            "durationMicroseconds": 0,
+                            "functionName": "right",
+                            "line": 158,
+                            "message": "Could not find property \"right\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 20,
+                            "durationMicroseconds": 19,
+                            "functionName": "width",
+                            "line": 163,
+                            "message": "Cannot retrieve a non-object type by ID: mainScroll"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 39,
+                            "durationMicroseconds": 50,
+                            "functionName": "horizontalCenter",
+                            "line": 164,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 86,
+                            "durationMicroseconds": 32,
+                            "functionName": "fillMode",
+                            "line": 171,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 68,
+                            "durationMicroseconds": 24,
+                            "functionName": "fill",
+                            "line": 171,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 35,
+                            "durationMicroseconds": 22,
+                            "functionName": "fill",
+                            "line": 173,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 39,
+                            "durationMicroseconds": 22,
+                            "functionName": "centerIn",
+                            "line": 180,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 148,
+                            "durationMicroseconds": 29,
+                            "functionName": "alignment",
+                            "line": 181,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 136,
+                            "durationMicroseconds": 26,
+                            "functionName": "alignment",
+                            "line": 182,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 61,
+                            "durationMicroseconds": 16,
+                            "functionName": "color",
+                            "line": 188,
+                            "message": "Cannot access value for name activeTheme"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 26,
+                            "durationMicroseconds": 48,
+                            "functionName": "columns",
+                            "line": 192,
+                            "message": "Cannot retrieve a non-object type by ID: mainScroll"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 59,
+                            "durationMicroseconds": 28,
+                            "functionName": "alignment",
+                            "line": 194,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 28,
+                            "durationMicroseconds": 29,
+                            "functionName": "model",
+                            "line": 197,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 36,
+                            "durationMicroseconds": 16,
+                            "functionName": "color",
+                            "line": 202,
+                            "message": "Cannot access value for name activeTheme"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 68,
+                            "durationMicroseconds": 14,
+                            "functionName": "color",
+                            "line": 202,
+                            "message": "Cannot access value for name activeTheme"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 47,
+                            "durationMicroseconds": 24,
+                            "functionName": "fill",
+                            "line": 206,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 44,
+                            "durationMicroseconds": 16,
+                            "functionName": "color",
+                            "line": 210,
+                            "message": "Cannot access value for name activeTheme"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 53,
+                            "durationMicroseconds": 17,
+                            "functionName": "source",
+                            "line": 212,
+                            "message": "Cannot access value for name model"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 96,
+                            "durationMicroseconds": 29,
+                            "functionName": "fillMode",
+                            "line": 212,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 78,
+                            "durationMicroseconds": 34,
+                            "functionName": "fill",
+                            "line": 212,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 52,
+                            "durationMicroseconds": 544,
+                            "functionName": "onClicked",
+                            "line": 215,
+                            "message": "Cannot access value for name carDetailPopup"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 55,
+                            "durationMicroseconds": 40,
+                            "functionName": "fill",
+                            "line": 214,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 50,
+                            "durationMicroseconds": 26,
+                            "functionName": "text",
+                            "line": 231,
+                            "message": "Cannot access value for name model"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 112,
+                            "durationMicroseconds": 16,
+                            "functionName": "color",
+                            "line": 231,
+                            "message": "Cannot access value for name activeTheme"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 164,
+                            "durationMicroseconds": 37,
+                            "functionName": "wrapMode",
+                            "line": 231,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 50,
+                            "durationMicroseconds": 34,
+                            "functionName": "text",
+                            "line": 232,
+                            "message": "Cannot access value for name model"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 52,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 238,
+                            "message": "Could not find signal \"clicked\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 67,
+                            "durationMicroseconds": 32,
+                            "functionName": "text",
+                            "line": 242,
+                            "message": "Cannot load property text from (component in /home/adhamakl/shop/Main.qml)::parent with type QQuickItem."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 134,
+                            "durationMicroseconds": 34,
+                            "functionName": "horizontalAlignment",
+                            "line": 242,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 172,
+                            "durationMicroseconds": 40,
+                            "functionName": "verticalAlignment",
+                            "line": 242,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 72,
+                            "durationMicroseconds": 50,
+                            "functionName": "color",
+                            "line": 243,
+                            "message": "Cannot load property down from (component in /home/adhamakl/shop/Main.qml)::parent with type QQuickItem."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 22,
+                            "durationMicroseconds": 0,
+                            "functionName": "closePolicy",
+                            "line": 258,
+                            "message": "Could not find property \"closePolicy\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 52,
+                            "durationMicroseconds": 0,
+                            "functionName": "centerIn",
+                            "line": 257,
+                            "message": "Could not find property \"centerIn\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 52,
+                            "durationMicroseconds": 14,
+                            "functionName": "color",
+                            "line": 263,
+                            "message": "Cannot access value for name activeTheme"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 84,
+                            "durationMicroseconds": 10,
+                            "functionName": "color",
+                            "line": 263,
+                            "message": "Cannot access value for name activeTheme"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 27,
+                            "durationMicroseconds": 28,
+                            "functionName": "fill",
+                            "line": 268,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 77,
+                            "durationMicroseconds": 13,
+                            "functionName": "color",
+                            "line": 270,
+                            "message": "Cannot access value for name activeTheme"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 33,
+                            "durationMicroseconds": 9,
+                            "functionName": "source",
+                            "line": 271,
+                            "message": "Cannot retrieve a non-object type by ID: carDetailPopup"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 88,
+                            "durationMicroseconds": 30,
+                            "functionName": "fillMode",
+                            "line": 271,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 70,
+                            "durationMicroseconds": 24,
+                            "functionName": "fill",
+                            "line": 271,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 30,
+                            "durationMicroseconds": 9,
+                            "functionName": "text",
+                            "line": 275,
+                            "message": "Cannot retrieve a non-object type by ID: carDetailPopup"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 98,
+                            "durationMicroseconds": 14,
+                            "functionName": "color",
+                            "line": 275,
+                            "message": "Cannot access value for name activeTheme"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 126,
+                            "durationMicroseconds": 31,
+                            "functionName": "wrapMode",
+                            "line": 275,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 30,
+                            "durationMicroseconds": 27,
+                            "functionName": "text",
+                            "line": 276,
+                            "message": "Cannot retrieve a non-object type by ID: carDetailPopup"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 30,
+                            "durationMicroseconds": 8,
+                            "functionName": "text",
+                            "line": 277,
+                            "message": "Cannot retrieve a non-object type by ID: carDetailPopup"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 81,
+                            "durationMicroseconds": 15,
+                            "functionName": "color",
+                            "line": 277,
+                            "message": "Cannot access value for name activeTheme"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 112,
+                            "durationMicroseconds": 29,
+                            "functionName": "wrapMode",
+                            "line": 277,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 87,
+                            "durationMicroseconds": 14,
+                            "functionName": "color",
+                            "line": 279,
+                            "message": "Cannot access value for name activeTheme"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 75,
+                            "durationMicroseconds": 14,
+                            "functionName": "color",
+                            "line": 283,
+                            "message": "Cannot access value for name activeTheme"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 34,
+                            "durationMicroseconds": 7,
+                            "functionName": "text",
+                            "line": 284,
+                            "message": "Cannot retrieve a non-object type by ID: carDetailPopup"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 67,
+                            "durationMicroseconds": 13,
+                            "functionName": "color",
+                            "line": 284,
+                            "message": "Cannot access value for name activeTheme"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 79,
+                            "durationMicroseconds": 13,
+                            "functionName": "color",
+                            "line": 285,
+                            "message": "Cannot access value for name activeTheme"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 34,
+                            "durationMicroseconds": 19,
+                            "functionName": "text",
+                            "line": 286,
+                            "message": "Cannot retrieve a non-object type by ID: carDetailPopup"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 63,
+                            "durationMicroseconds": 14,
+                            "functionName": "color",
+                            "line": 286,
+                            "message": "Cannot access value for name activeTheme"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 77,
+                            "durationMicroseconds": 13,
+                            "functionName": "color",
+                            "line": 287,
+                            "message": "Cannot access value for name activeTheme"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 34,
+                            "durationMicroseconds": 7,
+                            "functionName": "text",
+                            "line": 288,
+                            "message": "Cannot retrieve a non-object type by ID: carDetailPopup"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 72,
+                            "durationMicroseconds": 13,
+                            "functionName": "color",
+                            "line": 288,
+                            "message": "Cannot access value for name activeTheme"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 78,
+                            "durationMicroseconds": 13,
+                            "functionName": "color",
+                            "line": 289,
+                            "message": "Cannot access value for name activeTheme"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 34,
+                            "durationMicroseconds": 7,
+                            "functionName": "text",
+                            "line": 290,
+                            "message": "Cannot retrieve a non-object type by ID: carDetailPopup"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 69,
+                            "durationMicroseconds": 13,
+                            "functionName": "color",
+                            "line": 290,
+                            "message": "Cannot access value for name activeTheme"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 86,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 295,
+                            "message": "Could not find signal \"clicked\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 36,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 299,
+                            "message": "Could not find signal \"clicked\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 51,
+                            "durationMicroseconds": 29,
+                            "functionName": "text",
+                            "line": 304,
+                            "message": "Cannot load property text from (component in /home/adhamakl/shop/Main.qml)::parent with type QQuickItem."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 118,
+                            "durationMicroseconds": 34,
+                            "functionName": "horizontalAlignment",
+                            "line": 304,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 56,
+                            "durationMicroseconds": 15,
+                            "functionName": "color",
+                            "line": 305,
+                            "message": "Cannot access value for name activeTheme"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 22,
+                            "durationMicroseconds": 0,
+                            "functionName": "closePolicy",
+                            "line": 315,
+                            "message": "Could not find property \"closePolicy\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 52,
+                            "durationMicroseconds": 0,
+                            "functionName": "centerIn",
+                            "line": 314,
+                            "message": "Could not find property \"centerIn\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 52,
+                            "durationMicroseconds": 11,
+                            "functionName": "color",
+                            "line": 316,
+                            "message": "Cannot access value for name activeTheme"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 84,
+                            "durationMicroseconds": 10,
+                            "functionName": "color",
+                            "line": 316,
+                            "message": "Cannot access value for name activeTheme"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 27,
+                            "durationMicroseconds": 28,
+                            "functionName": "fill",
+                            "line": 321,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 89,
+                            "durationMicroseconds": 14,
+                            "functionName": "color",
+                            "line": 323,
+                            "message": "Cannot access value for name activeTheme"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 83,
+                            "durationMicroseconds": 11,
+                            "functionName": "color",
+                            "line": 325,
+                            "message": "Cannot access value for name activeTheme"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 44,
+                            "durationMicroseconds": 14,
+                            "functionName": "color",
+                            "line": 329,
+                            "message": "Cannot access value for name activeTheme"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 26,
+                            "durationMicroseconds": 72,
+                            "functionName": "visible",
+                            "line": 330,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 36,
+                            "durationMicroseconds": 34,
+                            "functionName": "verticalAlignment",
+                            "line": 332,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 35,
+                            "durationMicroseconds": 33,
+                            "functionName": "alignment",
+                            "line": 331,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 24,
+                            "durationMicroseconds": 38,
+                            "functionName": "model",
+                            "line": 338,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 26,
+                            "durationMicroseconds": 74,
+                            "functionName": "visible",
+                            "line": 340,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 28,
+                            "durationMicroseconds": 62,
+                            "functionName": "width",
+                            "line": 343,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 57,
+                            "durationMicroseconds": 16,
+                            "functionName": "color",
+                            "line": 344,
+                            "message": "Cannot access value for name activeTheme"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 39,
+                            "durationMicroseconds": 31,
+                            "functionName": "fill",
+                            "line": 347,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 111,
+                            "durationMicroseconds": 15,
+                            "functionName": "color",
+                            "line": 350,
+                            "message": "Cannot access value for name activeTheme"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 45,
+                            "durationMicroseconds": 17,
+                            "functionName": "source",
+                            "line": 351,
+                            "message": "Cannot access value for name model"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 89,
+                            "durationMicroseconds": 37,
+                            "functionName": "fillMode",
+                            "line": 351,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 71,
+                            "durationMicroseconds": 28,
+                            "functionName": "fill",
+                            "line": 351,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 42,
+                            "durationMicroseconds": 19,
+                            "functionName": "text",
+                            "line": 356,
+                            "message": "Cannot access value for name model"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 99,
+                            "durationMicroseconds": 15,
+                            "functionName": "color",
+                            "line": 356,
+                            "message": "Cannot access value for name activeTheme"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 148,
+                            "durationMicroseconds": 36,
+                            "functionName": "elide",
+                            "line": 356,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 42,
+                            "durationMicroseconds": 39,
+                            "functionName": "text",
+                            "line": 357,
+                            "message": "Cannot access value for name model"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 40,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 365,
+                            "message": "Could not find signal \"clicked\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 55,
+                            "durationMicroseconds": 53,
+                            "functionName": "text",
+                            "line": 364,
+                            "message": "Cannot load property text from (component in /home/adhamakl/shop/Main.qml)::parent with type QQuickItem."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 122,
+                            "durationMicroseconds": 47,
+                            "functionName": "horizontalAlignment",
+                            "line": 364,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 160,
+                            "durationMicroseconds": 31,
+                            "functionName": "verticalAlignment",
+                            "line": 364,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 83,
+                            "durationMicroseconds": 15,
+                            "functionName": "color",
+                            "line": 374,
+                            "message": "Cannot access value for name activeTheme"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 90,
+                            "durationMicroseconds": 15,
+                            "functionName": "color",
+                            "line": 378,
+                            "message": "Cannot access value for name activeTheme"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 30,
+                            "durationMicroseconds": 222,
+                            "functionName": "text",
+                            "line": 380,
+                            "message": "Cannot generate efficient code for call to untyped JavaScript function"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 56,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 387,
+                            "message": "Could not find signal \"clicked\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 30,
+                            "durationMicroseconds": 0,
+                            "functionName": "enabled",
+                            "line": 392,
+                            "message": "Could not find property \"enabled\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 32,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 395,
+                            "message": "Could not find signal \"clicked\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 52,
+                            "durationMicroseconds": 36,
+                            "functionName": "color",
+                            "line": 393,
+                            "message": "Cannot access value for name activeTheme"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 47,
+                            "durationMicroseconds": 29,
+                            "functionName": "text",
+                            "line": 394,
+                            "message": "Cannot load property text from (component in /home/adhamakl/shop/Main.qml)::parent with type QQuickItem."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 114,
+                            "durationMicroseconds": 31,
+                            "functionName": "horizontalAlignment",
+                            "line": 394,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 38,
+                            "durationMicroseconds": 13,
+                            "functionName": "color",
+                            "line": 407,
+                            "message": "Cannot access value for name activeTheme"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 23,
+                            "durationMicroseconds": 29,
+                            "functionName": "fill",
+                            "line": 407,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 31,
+                            "durationMicroseconds": 27,
+                            "functionName": "centerIn",
+                            "line": 409,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 92,
+                            "durationMicroseconds": 32,
+                            "functionName": "alignment",
+                            "line": 411,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 89,
+                            "durationMicroseconds": 35,
+                            "functionName": "fillMode",
+                            "line": 413,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 71,
+                            "durationMicroseconds": 28,
+                            "functionName": "fill",
+                            "line": 413,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 43,
+                            "durationMicroseconds": 32,
+                            "functionName": "loops",
+                            "line": 416,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 47,
+                            "durationMicroseconds": 30,
+                            "functionName": "target",
+                            "line": 417,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 119,
+                            "durationMicroseconds": 33,
+                            "functionName": "type",
+                            "line": 417,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 47,
+                            "durationMicroseconds": 30,
+                            "functionName": "target",
+                            "line": 418,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 119,
+                            "durationMicroseconds": 36,
+                            "functionName": "type",
+                            "line": 418,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 89,
+                            "durationMicroseconds": 17,
+                            "functionName": "color",
+                            "line": 421,
+                            "message": "Cannot access value for name activeTheme"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 125,
+                            "durationMicroseconds": 29,
+                            "functionName": "alignment",
+                            "line": 421,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 98,
+                            "durationMicroseconds": 15,
+                            "functionName": "color",
+                            "line": 422,
+                            "message": "Cannot access value for name activeTheme"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 137,
+                            "durationMicroseconds": 26,
+                            "functionName": "alignment",
+                            "line": 422,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 76,
+                            "durationMicroseconds": 55,
+                            "functionName": "onTriggered",
+                            "line": 424,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 25,
+                            "durationMicroseconds": 60,
+                            "functionName": "onFinished",
+                            "line": 429,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 39,
+                            "durationMicroseconds": 64,
+                            "functionName": "target",
+                            "line": 427,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 109,
+                            "durationMicroseconds": 167,
+                            "functionName": "type",
+                            "line": 427,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 39,
+                            "durationMicroseconds": 31,
+                            "functionName": "target",
+                            "line": 428,
+                            "message": ""
+                        }
+                    ],
+                    "filePath": "/home/adhamakl/shop/Main.qml"
+                }
+            ],
+            "moduleId": "shop(appshop)"
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/shop/">
+    <file alias="Main.qml">/home/adhamakl/shop/Main.qml</file>
+  </qresource>
+</RCC>
+
