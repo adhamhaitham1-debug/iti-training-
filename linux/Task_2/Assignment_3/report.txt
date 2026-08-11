@@ -1,0 +1,38 @@
+adhamakl@adhamakl-VMware-Virtual-Platform:~/iti-training-/linux/Task_2$ mkdir -p Assignment_3
+adhamakl@adhamakl-VMware-Virtual-Platform:~/iti-training-/linux/Task_2$ cd Assignment_3
+adhamakl@adhamakl-VMware-Virtual-Platform:~/iti-training-/linux/Task_2/Assignment_3$ cat << 'BANNER' >> ~/.bashrc
+
+echo "=========================================="
+echo "      Welcome to ITI Linux Environment"
+echo "=========================================="
+echo ""
+echo "User        : \$(whoami)"
+echo "Hostname    : \$(hostname)"
+echo "Date        : \$(date)"
+echo "Shell       : \$SHELL"
+echo "Current Dir : \$(pwd)"
+echo ""
+echo "Have a productive day!"
+echo "=========================================="
+BANNER
+
+adhamakl@adhamakl-VMware-Virtual-Platform:~/iti-training-/linux/Task_2/Assignment_3$ source ~/.bashrc
+==========================================
+      Welcome to ITI Linux Environment
+==========================================
+
+User        : adhamakl
+Hostname    : adhamakl-VMware-Virtual-Platform
+Date        : Tue Aug 11 17:18:27 EEST 2026
+Shell       : /bin/bash
+Current Dir : /home/adhamakl/iti-training-/linux/Task_2/Assignment_3
+
+Have a productive day!
+==========================================
+
+=======================================================
+Assignment 3 – Build Your Own Linux Shell Environment
+=======================================================
+
+Solution Explanation:
+The welcome banner is configured directly inside the user startup file (~/.bashrc). Whenever a new terminal window or tab is opened, Bash automatically reads and executes ~/.bashrc, running the embedded commands ($(whoami), $(hostname), $(date), $SHELL, and $(pwd)) to generate an updated banner dynamically.
