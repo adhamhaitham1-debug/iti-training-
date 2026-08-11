@@ -13,3 +13,19 @@ echo "Age        : $age"
 echo "Department : $dept"
 echo "Salary     : $salary"
 echo "=========================================="
+adhamakl@adhamakl-VMware-Virtual-Platform:~/iti-training-/linux/Task_2/Assignment_5$ chmod +x employee.sh
+adhamakl@adhamakl-VMware-Virtual-Platform:~/iti-training-/linux/Task_2/Assignment_5$ ./employee.sh
+Enter Employee Name: adham
+Enter Age: 23
+Enter Department: communication
+Enter Salary: 50000
+
+==========================================
+        Employee Details Summary
+==========================================
+Name       : adham
+Age        : 23
+Department : communication
+Salary     : 50000
+==========================================
+
