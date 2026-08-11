@@ -1,0 +1,28 @@
+adhamakl@adhamakl-VMware-Virtual-Platform:~/iti-training-/linux/Task_2/Assignment_4$ nano ~/.bashrc
+adhamakl@adhamakl-VMware-Virtual-Platform:~/iti-training-/linux/Task_2/Assignment_4$ source ~/.bashrc
+adhamakl@adhamakl-VMware-Virtual-Platform:~/iti-training-/linux/Task_2/Assignment_4$ echo -e "Line 1: Welcome to ITI\nLine 2: Linux Shell Customization\nLine 3: Search keyword test" > demo.txt
+adhamakl@adhamakl-VMware-Virtual-Platform:~/iti-training-/linux/Task_2/Assignment_4$ print_content
+total 12
+drwxr-xr-x 2 adhamakl adhamakl 4096 Aug 11 17:30 .
+drwxr-xr-x 6 adhamakl adhamakl 4096 Aug 11 17:30 ..
+-rw-r--r-- 1 adhamakl adhamakl   72 Aug 11 17:30 demo.txt
+adhamakl@adhamakl-VMware-Virtual-Platform:~/iti-training-/linux/Task_2/Assignment_4$ go_to ~
+adhamakl@adhamakl-VMware-Virtual-Platform:~$ go_to ~/iti-training-/linux/Task_2/Assignment_4
+adhamakl@adhamakl-VMware-Virtual-Platform:~/iti-training-/linux/Task_2/Assignment_4$ show_file demo.txt
+     1	Line 1: Welcome to ITI
+     2	Line 2: Linux Shell Customization
+     3	Line 3: Search keyword test
+adhamakl@adhamakl-VMware-Virtual-Platform:~/iti-training-/linux/Task_2/Assignment_4$ search "Linux" demo.txt
+Line 2: Linux Shell Customization
+
+=======================================================
+Assignment 4 – Customize Your Linux Terminal
+=======================================================
+
+Implementation Notes:
+- Requirement 1: Added alias print_content='ls -la' to list all files, including hidden ones, in long listing format.
+- Requirement 2: Added alias go_to='cd' to allow seamless directory navigation with arguments.
+- Requirement 3: Added alias search='grep --color=auto' to display matching keyword lines with color highlighting.
+- Requirement 4: Added alias show_file='cat -n' to print file contents alongside line numbers.
+
+All configurations were appended to ~/.bashrc to guarantee persistence across all future terminal sessions.
