@@ -1,20 +1,18 @@
-  423  env | wc -l  (or printenv | wc -l)
-  424  env | wc -l
-  425  export COMPANY=ITI
-  426  echo $COMPANY
-  427  qt_add_qml_module(appsamrt_home_control_dashboard
-  428  )
-  429  pwd
-  430  mkdir liniux_practice
-  431  cd linux_practice
-  432  cd liniux_practice
-  433  touch file_A.txt
-  434  touch file_B.txt
-  435  ls
-  436  cd
-  437  git clone https://github.com/adhamhaitham1-debug/iti-training-.git
-  438  cd iti-training-
-  439  mkdir linux
-  440  cd linux
-  441  mv ~/liniux_practice ./task1
-  442  history | tail -n 20 > task1/terminal_history.txt
+adhamakl@adhamakl-VMware-Virtual-Platform:~$ pwd
+/home/adhamakl
+adhamakl@adhamakl-VMware-Virtual-Platform:~$ mkdir liniux_practice
+adhamakl@adhamakl-VMware-Virtual-Platform:~$ cd linux_practice
+bash: cd: linux_practice: No such file or directory
+adhamakl@adhamakl-VMware-Virtual-Platform:~$ cd liniux_practice
+adhamakl@adhamakl-VMware-Virtual-Platform:~/liniux_practice$ touch file_A.txt
+adhamakl@adhamakl-VMware-Virtual-Platform:~/liniux_practice$ touch file_B.txt
+adhamakl@adhamakl-VMware-Virtual-Platform:~/liniux_practice$ ls
+file_A.txt  file_B.txt
+adhamakl@adhamakl-VMware-Virtual-Platform:~/liniux_practice$ cd
+adhamakl@adhamakl-VMware-Virtual-Platform:~$ git clone https://github.com/adhamhaitham1-debug/iti-training-.git
+fatal: destination path 'iti-training-' already exists and is not an empty directory.
+adhamakl@adhamakl-VMware-Virtual-Platform:~$ cd iti-training-
+adhamakl@adhamakl-VMware-Virtual-Platform:~/iti-training-$ mkdir linux
+mkdir: linux: File exists
+adhamakl@adhamakl-VMware-Virtual-Platform:~/iti-training-$ cd linux
+adhamakl@adhamakl-VMware-Virtual-Platform:~/iti-training-/linux$ mv ~/liniux_practice ./task1
