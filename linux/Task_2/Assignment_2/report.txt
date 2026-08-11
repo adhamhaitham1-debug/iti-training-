@@ -1,0 +1,28 @@
+adhamakl@adhamakl-VMware-Virtual-Platform:~/iti-training-/linux/Task_2$ mkdir -p Assignment_2
+adhamakl@adhamakl-VMware-Virtual-Platform:~/iti-training-/linux/Task_2$ cd Assignment_2
+adhamakl@adhamakl-VMware-Virtual-Platform:~/iti-training-/linux/Task_2/Assignment_2$ echo $COMPANY
+
+adhamakl@adhamakl-VMware-Virtual-Platform:~/iti-training-/linux/Task_2/Assignment_2$ echo 'export COMPANY=ITI' >> ~/.bashrc
+adhamakl@adhamakl-VMware-Virtual-Platform:~/iti-training-/linux/Task_2/Assignment_2$ source ~/.bashrc
+adhamakl@adhamakl-VMware-Virtual-Platform:~/iti-training-/linux/Task_2/Assignment_2$ echo $COMPANY
+ITI
+adhamakl@adhamakl-VMware-Virtual-Platform:~/iti-training-/linux/Task_2/Assignment_2$ bash
+adhamakl@adhamakl-VMware-Virtual-Platform:~/iti-training-/linux/Task_2/Assignment_2$ echo $COMPANY
+ITI
+adhamakl@adhamakl-VMware-Virtual-Platform:~/iti-training-/linux/Task_2/Assignment_2$ exit
+exit
+adhamakl@adhamakl-VMware-Virtual-Platform:~/iti-training-/linux/Task_2/Assignment_2$ gnome-terminal
+adhamakl@adhamakl-VMware-Virtual-Platform:~/iti-training-/linux/Task_2/Assignment_2$ echo $COMPANY
+ITI
+
+==================================================
+Assignment 2 – Environment Variable Mystery Report
+==================================================
+
+1. Verification Summary:
+- Current Shell: Verified using 'echo $COMPANY' -> Output: ITI
+- Child Shell: Spawned subshell with 'bash', ran 'echo $COMPANY' -> Output: ITI
+- New Terminal: Opened new terminal instance, ran 'echo $COMPANY' -> Output: ITI
+
+2. Startup File Selection (~/.bashrc):
+~/.bashrc was chosen because it executes every time a new interactive non-login shell (a terminal window or tab) is opened. Adding 'export COMPANY=ITI' to ~/.bashrc ensures the variable is set automatically for all future interactive sessions and inherited by child processes.
