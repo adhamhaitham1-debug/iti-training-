@@ -1,0 +1,26 @@
+adhamakl@adhamakl-VMware-Virtual-Platform:~/iti-training-/linux$ mkdir -p Task_2
+adhamakl@adhamakl-VMware-Virtual-Platform:~/iti-training-/linux$ cd ~/iti-training-/linux/Task_2
+adhamakl@adhamakl-VMware-Virtual-Platform:~/iti-training-/linux/Task_2$ mkdir -p Assignment_1
+adhamakl@adhamakl-VMware-Virtual-Platform:~/iti-training-/linux/Task_2$ cd ~/iti-training-/linux/Task_2/Assignement_1
+bash: cd: /home/adhamakl/iti-training-/linux/Task_2/Assignement_1: No such file or directory
+adhamakl@adhamakl-VMware-Virtual-Platform:~/iti-training-/linux/Task_2$ cd ~/iti-training-/linux/Task_2/Assignment_1
+adhamakl@adhamakl-VMware-Virtual-Platform:~/iti-training-/linux/Task_2/Assignment_1$ echo $SHELL
+/bin/bash
+adhamakl@adhamakl-VMware-Virtual-Platform:~/iti-training-/linux/Task_2/Assignment_1$ echo $$
+201923
+adhamakl@adhamakl-VMware-Virtual-Platform:~/iti-training-/linux/Task_2/Assignment_1$ echo $PPID
+201871
+adhamakl@adhamakl-VMware-Virtual-Platform:~/iti-training-/linux/Task_2/Assignment_1$ whoami
+adhamakl
+adhamakl@adhamakl-VMware-Virtual-Platform:~/iti-training-/linux/Task_2/Assignment_1$ pwd
+/home/adhamakl/iti-training-/linux/Task_2/Assignment_1
+adhamakl@adhamakl-VMware-Virtual-Platform:~/iti-training-/linux/Task_2/Assignment_1$ echo $HOME
+/home/adhamakl
+adhamakl@adhamakl-VMware-Virtual-Platform:~/iti-training-/linux/Task_2/Assignment_1$ hostname
+adhamakl-VMware-Virtual-Platform
+adhamakl@adhamakl-VMware-Virtual-Platform:~/iti-training-/linux/Task_2/Assignment_1$ grep "^$USER:" /etc/passwd | cut -d: -f7
+/bin/bash
+adhamakl@adhamakl-VMware-Virtual-Platform:~/iti-training-/linux/Task_2/Assignment_1$ echo $PATH
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+adhamakl@adhamakl-VMware-Virtual-Platform:~/iti-training-/linux/Task_2/Assignment_1$ env | wc -l
+55
