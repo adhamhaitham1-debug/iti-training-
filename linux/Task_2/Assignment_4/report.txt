@@ -1,12 +1,36 @@
 
 =======================================================
-Assignment 4 – Customize Your Linux Terminal
+Assignment 4 – Customize Your Linux Terminal Report
 =======================================================
 
-Implementation Notes:
-- Requirement 1: Added alias print_content='ls -la' to list all files, including hidden ones, in long listing format.
-- Requirement 2: Added alias go_to='cd' to allow seamless directory navigation with arguments.
-- Requirement 3: Added alias search='grep --color=auto' to display matching keyword lines with color highlighting.
-- Requirement 4: Added alias show_file='cat -n' to print file contents alongside line numbers.
+Command Implementation Details:
+--------------------------------
+1. print_content  -> alias print_content='ls -la'
+   Displays detailed file listings including hidden files.
+2. go_to          -> alias go_to='cd'
+   Navigates directly to the specified target directory.
+3. search         -> alias search='grep --color=auto'
+   Searches for matching strings in files with color highlighting.
+4. show_file      -> alias show_file='cat -n'
+   Outputs file text prefixed with line numbers.
+5. remove         -> alias remove='rm -i'
+   Prompts interactive confirmation (y/n) before removing files.
+6. make_dir       -> alias make_dir='mkdir -p'
+   Creates full directory trees including missing parents.
+7. create_file    -> alias create_file='touch'
+   Creates a new empty file.
 
-All configurations were appended to ~/.bashrc to guarantee persistence across all future terminal sessions.
+Persistence:
+All custom aliases were appended to ~/.bashrc to guarantee persistence across all terminal sessions.
+==========================================
+      Welcome to ITI Linux Environment
+==========================================
+
+User        : adhamakl
+Hostname    : adhamakl-VMware-Virtual-Platform
+Date        : Tue Aug 11 05:39:21 PM EEST 2026
+Shell       : /bin/bash
+Current Dir : /home/adhamakl/iti-training-/linux/Task_2/Assignment_4
+
+Have a productive day!
+==========================================
