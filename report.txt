@@ -1,0 +1,26 @@
+adhamakl@adhamakl-VMware-Virtual-Platform:~/iti-training-/linux/Task_2/Assignment_5$ nano employee.sh
+adhamakl@adhamakl-VMware-Virtual-Platform:~/iti-training-/linux/Task_2/Assignment_5$ chmod +x employee.sh
+adhamakl@adhamakl-VMware-Virtual-Platform:~/iti-training-/linux/Task_2/Assignment_5$ ./employee.sh
+Enter Employee Name: Adham Akl
+Enter Age: 24
+Enter Department: DevOps
+Enter Salary: 15000
+
+==========================================
+        Employee Details Summary
+==========================================
+Name       : Adham Akl
+Age        : 24
+Department : DevOps
+Salary     : 15000
+==========================================
+
+=======================================================
+Assignment 5 – Employee Registration System Report
+=======================================================
+
+Implementation Details:
+- Created 'employee.sh' to interactively register new employees.
+- Used 'read -p' statements to prompt for Name, Age, Department, and Salary.
+- Formatted output using 'echo' to display summary details cleanly.
+- Set executable permission using 'chmod +x employee.sh'.
