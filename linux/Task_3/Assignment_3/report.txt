@@ -1,0 +1,24 @@
+adhamakl@adhamakl-VMware-Virtual-Platform:~/iti-training-/linux/Task_3/Assignment_3$ ./password_checker.sh
+Enter password: F@hd12345
+
+Password Strength Report
+
+Length          : OK
+Uppercase       : OK
+Lowercase       : OK
+Digit           : OK
+Special Char    : OK
+
+Overall: Strong
+
+=======================================================
+Task 3 Assignment 3 – Password Strength Checker Report
+=======================================================
+
+Implementation Details:
+- Created 'password_checker.sh' to evaluate password complexity.
+- Calculated string length using internal variable expansion '${#pass}'.
+- Evaluated character classes using Bash regex operators '[[ "$pass" =~ pattern ]]'.
+- Built an itemized check matrix for length, uppercase, lowercase, digits, and special characters.
+- Validated with test input 'F@hd12345' meeting all strength criteria.
+- Configured executable permissions via 'chmod +x password_checker.sh'.
