@@ -1,28 +1,45 @@
 adhamakl@adhamakl-VMware-Virtual-Platform:~/iti-training-/linux/Task_2/Assignment_4$ nano ~/.bashrc
 adhamakl@adhamakl-VMware-Virtual-Platform:~/iti-training-/linux/Task_2/Assignment_4$ source ~/.bashrc
-adhamakl@adhamakl-VMware-Virtual-Platform:~/iti-training-/linux/Task_2/Assignment_4$ echo -e "Line 1: Welcome to ITI\nLine 2: Linux Shell Customization\nLine 3: Search keyword test" > demo.txt
-adhamakl@adhamakl-VMware-Virtual-Platform:~/iti-training-/linux/Task_2/Assignment_4$ print_content
-total 12
-drwxr-xr-x 2 adhamakl adhamakl 4096 Aug 11 17:30 .
-drwxr-xr-x 6 adhamakl adhamakl 4096 Aug 11 17:30 ..
--rw-r--r-- 1 adhamakl adhamakl   72 Aug 11 17:30 demo.txt
-adhamakl@adhamakl-VMware-Virtual-Platform:~/iti-training-/linux/Task_2/Assignment_4$ go_to ~
-adhamakl@adhamakl-VMware-Virtual-Platform:~$ go_to ~/iti-training-/linux/Task_2/Assignment_4
-adhamakl@adhamakl-VMware-Virtual-Platform:~/iti-training-/linux/Task_2/Assignment_4$ show_file demo.txt
+adhamakl@adhamakl-VMware-Virtual-Platform:~/iti-training-/linux/Task_2/Assignment_4$ make_dir project/src/include
+adhamakl@adhamakl-VMware-Virtual-Platform:~/iti-training-/linux/Task_2/Assignment_4$ go_to project/src/include
+adhamakl@adhamakl-VMware-Virtual-Platform:~/iti-training-/linux/Task_2/Assignment_4/project/src/include$ create_file notes.txt
+adhamakl@adhamakl-VMware-Virtual-Platform:~/iti-training-/linux/Task_2/Assignment_4/project/src/include$ echo -e "Line 1: Welcome to ITI\nLine 2: Customize Your Linux Terminal\nLine 3: Search test" > notes.txt
+adhamakl@adhamakl-VMware-Virtual-Platform:~/iti-training-/linux/Task_2/Assignment_4/project/src/include$ show_file notes.txt
      1	Line 1: Welcome to ITI
-     2	Line 2: Linux Shell Customization
-     3	Line 3: Search keyword test
-adhamakl@adhamakl-VMware-Virtual-Platform:~/iti-training-/linux/Task_2/Assignment_4$ search "Linux" demo.txt
-Line 2: Linux Shell Customization
+     2	Line 2: Customize Your Linux Terminal
+     3	Line 3: Search test
+adhamakl@adhamakl-VMware-Virtual-Platform:~/iti-training-/linux/Task_2/Assignment_4/project/src/include$ search "Linux" notes.txt
+Line 2: Customize Your Linux Terminal
+adhamakl@adhamakl-VMware-Virtual-Platform:~/iti-training-/linux/Task_2/Assignment_4/project/src/include$ print_content
+total 12
+drwxr-xr-x 2 adhamakl adhamakl 4096 Aug 11 17:35 .
+drwxr-xr-x 3 adhamakl adhamakl 4096 Aug 11 17:35 ..
+-rw-r--r-- 1 adhamakl adhamakl   78 Aug 11 17:35 notes.txt
+adhamakl@adhamakl-VMware-Virtual-Platform:~/iti-training-/linux/Task_2/Assignment_4/project/src/include$ create_file temp.txt
+adhamakl@adhamakl-VMware-Virtual-Platform:~/iti-training-/linux/Task_2/Assignment_4/project/src/include$ remove temp.txt
+rm: remove regular empty file 'temp.txt'? y
+adhamakl@adhamakl-VMware-Virtual-Platform:~/iti-training-/linux/Task_2/Assignment_4/project/src/include$ go_to ~/iti-training-/linux/Task_2/Assignment_4
 
 =======================================================
-Assignment 4 – Customize Your Linux Terminal
+Assignment 4 – Customize Your Linux Terminal Report
 =======================================================
 
-Implementation Notes:
-- Requirement 1: Added alias print_content='ls -la' to list all files, including hidden ones, in long listing format.
-- Requirement 2: Added alias go_to='cd' to allow seamless directory navigation with arguments.
-- Requirement 3: Added alias search='grep --color=auto' to display matching keyword lines with color highlighting.
-- Requirement 4: Added alias show_file='cat -n' to print file contents alongside line numbers.
+Command Implementation Details:
+--------------------------------
+1. print_content  -> alias print_content='ls -la'
+   Displays detailed file listings including hidden files.
+2. go_to          -> alias go_to='cd'
+   Navigates directly to the specified target directory.
+3. search         -> alias search='grep --color=auto'
+   Searches for matching strings in files with color highlighting.
+4. show_file      -> alias show_file='cat -n'
+   Outputs file text prefixed with line numbers.
+5. remove         -> alias remove='rm -i'
+   Prompts interactive confirmation (y/n) before removing files.
+6. make_dir       -> alias make_dir='mkdir -p'
+   Creates full directory trees including missing parents.
+7. create_file    -> alias create_file='touch'
+   Creates a new empty file.
 
-All configurations were appended to ~/.bashrc to guarantee persistence across all future terminal sessions.
+Persistence:
+All custom aliases were appended to ~/.bashrc to guarantee persistence across all terminal sessions.
