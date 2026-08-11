@@ -1,0 +1,3 @@
+adhamakl@adhamakl-VMware-Virtual-Platform:~/iti-training-/linux/Task_3/Assignment_2$ cat << 'EOF' > monitor.sh
+#!/bin/bash
+...
