@@ -1,3 +1,6 @@
+### 🏛️ System Architecture
+
+```mermaid
 graph TD
     subgraph "1. UI Layer (QML / Front-End)"
         UI_Controls[Media Controls & VideoOutput]
