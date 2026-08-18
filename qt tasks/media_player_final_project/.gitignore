@@ -1,0 +1,14 @@
+# Qt & CMake Build folders
+build/
+build-*/
+CMakeCache.txt
+CMakeFiles/
+CMakeLists.txt.user
+*.o
+*.obj
+*.exe
+*.a
+
+# Qt Creator specific
+.qtc_clangd/
+*.pro.user

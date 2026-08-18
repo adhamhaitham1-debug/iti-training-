@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>downloaded.png</file>
+        <file>liked.png</file>
+        <file>mute.png</file>
+        <file>next.png</file>
+        <file>pause.png</file>
+        <file>play.png</file>
+        <file>prev.png</file>
+        <file>Sound.png</file>
+        <file>undownload.png</file>
+        <file>unlike.png</file>
+        <file>import.png</file>
+        <file>repeat.png</file>
+        <file>animation.gif</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>main.qml</file>
+    </qresource>
+</RCC>
